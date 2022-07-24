@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.encabezado{
+    width: 100%;
+    border: 10px solid red;
+    display: flex;
+    flex-direction: colun;
+    justify-content: center;
+}
+.imagen1{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px;
+}
+.titulo{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.boton-enlace{
+    border: 1px solid blue;
+    border-radius: 3px;
+    background-color: aqua;
+    width: 50px;
+}
+p {
+    color: brown;
+}
+
+section > p {
+    margin: 0cm;
+    border: 10;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10;
+}
