@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+   
+
+
+:root{
+    --white: #fff
+    --black: #0000
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #ACD9B2;
+    --blu: #B0C4DE;
+    --rgb: 3, 96, 146;
+}
+.encabezado{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 10px solid #B0C4DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    margin: 0;
+    padding: 44px;
+    font-size: 16px;
+}
+.imagen1{   
+    margin: 10px;  
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;     
+}
+.boton_enlace{
+    font-size: 100%;
+    border: 4px solid #B0C4DE;
+    border-radius: 8px;
+    flex-direction: column;
+    column-width: 100px;
+}
+.direccion{
+    border: 0;
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    
+}
+
+p{
+    margin: 20px;
+    padding: 15px;
+   /* width: 100%;*/
+    border: 10px solid width;
+    display: flex;
+    flex-direction: row-reverse;
+}    
+
+
+.yo-1>p{
+    background-color: violet;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 10px solid #B0C4DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.yo-2>p{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 10px solid #B0C4DE;
+    display: inline-block;
+    width: left;   
+}
+.titulo{
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    color: var(--rgb)
+
+}
+
+.direccion{
+   box-sizing: border-box;
+    color:rgb(3, 96, 146);
+    padding: 8px;
+    margin: 20px;
+    font-size: 120%;
+    display: flex;
+    flex-direction: colun  row-reverse;
+    justify-content: center;
+}
+.contacto{
+    background-color: #B0C4DE;
+    height: 100px;
+    align-items: center;
+}
+h3{
+    color:rgb(3, 96, 146);
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    display: flex;
+    flex-direction: colun row-reverse; 
+    border-radius: 8px;  
+}
+/*.vision{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+
+}
+/*
+.yo{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    cccc  
+}
+
+.boton-enlace{
+    font-size: 250%;
+    font-size: 16px;
+    color: var(--blu);
+    border: 1px solid blue;
+    border-radius: 8px;
+    background-color:  --blu: #B0C4DE;
+}
+p {
+    color: brown;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    border: 10px solid var(--blu);
+    display: flex;
+    flex-direction: colun;
+}
+
+section > p {
+    margin: 0cm;
+    border: 10;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10;
+
+*/
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="pg muestra"contnt="esta pg sera la muestra de mi proyecto"/>
+        <meta name="robots" content="index,fellow">
+        <title>Mi proyecto Cosecha de lluvia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style1.css">
+        <link rel="stylesheet" href="./index.js">
+        <link rel="stylesheet" href="galeria">
+    </head>
+    <body>
+        <main> 
+            <section class="encabezado">
+                <figure class="imagen1">
+                    <img src="./imagen/18.jpg" alt="agua+vida">
+                        <!--<figcaption>Cosecha de lluvia</figcaption>-->                                                      
+                        <div class="titulo">
+                            <ul>
+                                <li>Cuida el ecosistema</li>
+                                <li>Evita inundaciones</li>
+                                <li>Reduce costos</li>
+                                <li>Conserva de Recursos naturales</li>
+                            </ul>                            
+                        </div>                          
+                </figure>
+            </section>            
+        </main>  
+        <!--<form action="formulario"></form>-->
+        <main >
+                <div class="boton_enlace">
+                    <a href="https://www.instagram.com/tv/CbnsAzNtD1m/?igshid=MDJmNzVkMjY=">Conoce mas </a>
+                </div> 
+                <div class="boton_enlace">
+                    <a href="./somos.html">Mision Vision</a> <!-- aria-label="to-top">
+                        <i class="td-icon-menu-up">Mision Vision</i></a></div>-->
+                </div>
+            <section>
+                <article>
+                    <h5 class="direccion">Como lo hecemos</h5>   
+                        <p>Con un mecanismo que tiene diferentes componentes como tubos, filtros, separadores del agua, canaletas, tanques, bombas y accesorios que funcionan para la recolección y tratamiento pluvial.</p>
+                    <h5 class="direccion">Beneficios</h5>
+                        <p>Reduccion de extracción de agua de los acuíferos.
+                            Dismunuye los escurrimientos a drenajes y se previenen riesgos de inundacion.
+                            Beneficios sociales y de salud: mejorar la calidad de vida, favorece los niveles de higiene y salud.
+                            “la captación de lluvia puede proveer agua de muy alta calidad, en muchos casos mejor que el agua que provee la red.
+                        El costo de la cosecha pluvial es únicamente la inversión inicial del Sistema de Cosecha de Agua de Lluvia, la SEDEMA destaca que al poco tiempo se recupera el dinero invertido ya que se aprovecha el almacenamiento y se hacen menores los pagos del recurso.
+                        </p>
+                    </div>        
+                </article>
+            </section>
+        </main>
+        <footer class="contacto"> 
+            CONTACTANOS
+            Cooperativa Pixcatl
+            Lazaro Cardenas S/N
+            Ixtlahuacan, Iztapalapa, CDMX
+            Telefono 55 5555 5555, 55 5555 5555
+        </footer>
+                 
+
+    </body>                                    
+</html>

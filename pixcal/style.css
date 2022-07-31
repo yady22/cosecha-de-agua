@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    width: 100%;
+    border: 10px solid #B0C4DE;
+    display: flex;
+    flex-direction: colun;
+    justify-content: center;
+}
+.imagen1{
+    content: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+/*figcaption{
+    font-size: 0%;
+    content: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px;
+}
+*/
+/*
+.titulo{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+*/
+.direccion {
+    padding: 10px;
+    margin: 10px;
+    display: flex;  
+    font-size: 400% 
+}
+.vision{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;  
+}
+/*
+.yo{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+*/
+.boton-enlace{
+    font-size: 350%;
+    
+    border: 1px solid blue;
+    border-radius: 3px;
+    background-color: aqua;
+    width: 50%;
+    justify-content: center;
+}
+p {
+    color: brown;
+}
+
+section > p {
+    margin: 0cm;
+    border: 10;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+:root{
+    --white: #fff
+    --black: #0000
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #ACD9B2;
+    --blu: #B0C4DE;
+    --blu-marino:#000020
+    --rgb:3, 96, 146
+}
+.encabezado{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    border: 10px solid var(--blu);
+    display: flex;
+    flex-direction: colun;
+}
+.titulo{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: var(--blu-marino);
+    display: flex;
+}
+
+.titulo{
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(3, 96, 146);
+    display: flex;
+    flex-direction: column-reverse;
+.direccion{
+    font-size: 4px;
+    color:rgb(3, 96, 146);
+    padding: 4px;
+    margin: 20px;
+    font-size: xxx-large;
+     
+}
+.vision{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+
+}
+
+.yo{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boton-enlace{
+    font-size: 250%;
+    font-size: 16px;
+    color: rgb(3, 96, 146);
+    border: 1px solid blue;
+    border-radius: 8px;
+    background-color:  --blu: #B0C4DE;
+}
+p {
+    color: brown;
+    
+}
+
